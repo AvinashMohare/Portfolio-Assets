@@ -69,4 +69,19 @@
 }
 .root main .button-wrapper button:hover {
   background-color: rgba(var(--primary-rgb), 0.1);
+}
+.root main .floatingfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+}
+.root main .floatingfooter .item {
+  overflow: hidden;
+  padding: 5px;
+  margin: 5px 0;
+  height: 30px;
+  width: 30px;
 }/*# sourceMappingURL=styles.css.map */

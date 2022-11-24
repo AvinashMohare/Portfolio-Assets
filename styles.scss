@@ -97,5 +97,22 @@
                 }
             }
         }
+
+        .floatingfooter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            left: 20px;
+            bottom: 0px;
+
+            .item {
+                overflow: hidden;
+                padding: 5px;
+                margin: 5px 0;
+                height: 30px;
+                width: 30px;
+            }
+        }
     }
 }
